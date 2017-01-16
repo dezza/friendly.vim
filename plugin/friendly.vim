@@ -11,6 +11,7 @@ function! s:FriendlyMouseCopyPaste()
     if !&wrap
       if g:number ==# 'relativenumber'
         set norelativenumber
+        set nonumber
       elseif g:number ==# 'number'
         set nonumber
       else
@@ -26,6 +27,7 @@ function! s:FriendlyMouseCopyPaste()
     else
       if g:number ==# 'relativenumber'
         set relativenumber
+        set number
       elseif g:number ==# 'number'
         set number
       else
