@@ -1,6 +1,6 @@
-if &relativenumber && !&number
+if &relativenumber
   let g:number = 'relativenumber'
-elseif &number && !&relativenumber
+elseif &number
   let g:number = 'number'
 else
   "NOP
