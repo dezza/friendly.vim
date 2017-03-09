@@ -6,6 +6,7 @@ else
   "NOP
 endif
 let g:listchars = &listchars
+let g:list = &list
 
 " :help write-plugin
 "if !hasmapto('<Plug>Friendly')

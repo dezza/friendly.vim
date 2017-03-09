@@ -25,7 +25,9 @@ function! friendly#FriendlyMouseCopyPaste()
         "NOP
       endif
 
-      set list
+      if g:list
+        set list
+      endif
       let &listchars=g:listchars
       setlocal nowrap
       setlocal nopaste
