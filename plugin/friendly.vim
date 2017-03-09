@@ -8,16 +8,6 @@ endif
 let g:listchars = &listchars
 let g:list = &list
 
-" :help write-plugin
-"if !hasmapto('<Plug>Friendly')
-"  nmap <unique> <F9> <Plug>n_Friendly
-"endif
-"
-"if !hasmapto('<Plug>Friendly')
-"  vmap <unique> <F9> <Plug>v_Friendly
-"endif
-" newer plugins don't map by default
-
 noremap <unique> <script> <Plug>n_Friendly <SID>FriendlyMouseCopyPaste
 noremap <SID>FriendlyMouseCopyPaste :call friendly#FriendlyMouseCopyPaste()<CR>
 

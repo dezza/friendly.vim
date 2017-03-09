@@ -33,5 +33,4 @@ function! friendly#FriendlyMouseCopyPaste()
       setlocal nopaste
       echo ''
     endif
-
 endfunction
